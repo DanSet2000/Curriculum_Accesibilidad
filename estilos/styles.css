@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #eee;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#foto {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Aplica un borde redondeado para formar un círculo */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+}
+
+#personal-info {
+    margin: 20px 0;
+}
+
+#education {
+    margin: 20px 0;
+}
+
+#experience {
+    margin: 20px 0;
+}
+
+#languages {
+    margin: 20px 0;
+}
+
+#video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#video video {
+    width: 400px; /* Ajusta el ancho del video según tus preferencias */
+    height: 300px; /* Ajusta la altura del video según tus preferencias */
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente el video */
+}
+
+#references {
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+}
+
+.language-bar {
+    height: 20px;
+    background-color: #007bff;
+    margin-bottom: 5px;
+}
+
+.language-bar span {
+    display: block;
+    height: 100%;
+}
+
+.spanish {
+    width: 100%;
+}
+
+.english {
+    width: 90%;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
